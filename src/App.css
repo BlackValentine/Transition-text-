@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  cursor: none;
+}
+
+.shapes{
+  position: relative;
+  height: 100vh;
+  width: full;
+  background: #2128BD;
+  overflow: hidden;
+}
+
+.shapes .shape {
+  will-change: transform;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape-1 {
+  background: #005FFE;
+  width: 400px;
+  height: 400px;
+  margin: -200px 0 0 -200px;
+}
+.shape-2 {
+  background: #FFE5E3;
+  width: 300px;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+}
+.shape-3 {
+  background: #FFCC57;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+}
+
+.cursor {
+  position: fixed;
+  background: #2128BD;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: -10px 0 0 -10px;
+  will-change: transform;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  mix-blend-mode: screen;
+}
+
+.content h1 {
+  color: black;
+  margin: 0;
+  font-size: 100px;
+  letter-spacing: 4px;
+}
