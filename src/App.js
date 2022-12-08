@@ -9,6 +9,12 @@ function App() {
     const shape = useRef([]);
     const shape2 = useRef([]);
     const shape3 = useRef([]);
+    const shape4 = useRef([]);
+    const shape5 = useRef([]);
+    const shape6 = useRef([]);
+    const shape7 = useRef([]);
+    const shape8 = useRef([]);
+    const shape9 = useRef([]);
     const cursor = useRef([]);
 
     const onMove = (e) => {
@@ -17,9 +23,15 @@ function App() {
 
     useEffect(() => {
         const shapes = [
-            shape.current,
+            shape9.current,
+            shape8.current,
+            shape7.current,
+            shape6.current,
+            shape5.current,
+            shape4.current,
+            shape3.current,
             shape2.current,
-            shape3.current
+            shape.current,
         ];
 
         gsap.to(shapes, {
@@ -44,13 +56,19 @@ function App() {
         >
             <div className="cursor" ref={cursor}></div>
             <div className="shapes">
-                <div className="shape shape-1" ref={shape}></div>
-                <div className="shape shape-2" ref={shape2}></div>
+                <div className="shape shape-9" ref={shape9}></div>
+                <div className="shape shape-8" ref={shape8}></div>
+                <div className="shape shape-7" ref={shape7}></div>
+                <div className="shape shape-6" ref={shape6}></div>
+                <div className="shape shape-5" ref={shape5}></div>
+                <div className="shape shape-4" ref={shape4}></div>
                 <div className="shape shape-3" ref={shape3}></div>
+                <div className="shape shape-2" ref={shape2}></div>
+                <div className="shape shape-1" ref={shape}></div>
             </div>
 
             <div className="content">
-                <h1>BlackValentine!</h1>
+                <h1>BLACKVALENTINE!</h1>
             </div>
        </div>
     );

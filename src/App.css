@@ -8,7 +8,7 @@ body {
 .shapes{
   position: relative;
   height: 100vh;
-  width: full;
+  width: 100vw;
   background: #2128BD;
   overflow: hidden;
 }
@@ -21,21 +21,59 @@ body {
 
 .shape-1 {
   background: #005FFE;
-  width: 400px;
-  height: 400px;
-  margin: -200px 0 0 -200px;
+  width: 50px;
+  height: 50px;
+  margin: -25px 0 0 -25px;
 }
 .shape-2 {
   background: #FFE5E3;
-  width: 300px;
-  height: 300px;
-  margin: -150px 0 0 -150px;
+  width: 46px;
+  height: 46px;
+  margin: -23px 0 0 -23px;
 }
 .shape-3 {
   background: #FFCC57;
-  width: 200px;
-  height: 200px;
-  margin: -100px 0 0 -100px;
+  width: 42px;
+  height: 42px;
+  margin: -21px 0 0 -21px;
+}
+
+.shape-4 {
+  background: #005FFE;
+  width: 38px;
+  height: 38px;
+  margin: -19px 0 0 -19px;
+}
+.shape-5 {
+  background: #FFE5E3;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+}
+.shape-6 {
+  background: #FFCC57;
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+}
+
+.shape-7 {
+  background: #005FFE;
+  width: 26px;
+  height: 26px;
+  margin: -13px 0 0 -13px;
+}
+.shape-8 {
+  background: #FFE5E3;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+}
+.shape-9 {
+  background: #FFCC57;
+  width: 18px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
 }
 
 .cursor {
@@ -61,12 +99,12 @@ body {
   height: 100vh;
   width: 100vw;
   background: white;
-  mix-blend-mode: screen;
+  mix-blend-mode: darken;
 }
 
 .content h1 {
-  color: black;
+  color: #2128BD;
   margin: 0;
   font-size: 100px;
-  letter-spacing: 4px;
+  letter-spacing: 10px;
 }
